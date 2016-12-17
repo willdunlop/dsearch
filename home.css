@@ -1,0 +1,65 @@
+@font-face { font-family: EarthOrbiter; src: url('assets/earthorbiter.ttf'); }
+
+body{
+  background: #000;
+  color: rgb(175,175,175);
+  font-family: 'EarthOrbiter';
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 99%;
+    width: 99%;
+}
+
+.middle {
+    margin: 0 auto 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin: 0 auto 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 26px;
+    //color: #792929;
+}
+
+.logo{
+  background-image: url("assets/Logo.png");
+  background-size: cover;
+  margin: 0 auto 0 auto;
+  width: 700px;
+  height: 100px;
+}
+
+#search-bar {
+  background: #000;
+  border: solid #792929;
+  color: rgb(255, 175, 175);
+  width: 350px;
+  height: 40px;
+  font-size: 26px;
+
+}
+
+#search-button {
+  background: #000;
+  border: solid #792929;
+  color: rgb(255, 175, 175);
+  height: 48px;
+  font-size: 26px;
+  font-family: 'EarthOrbiter';
+
+}
+  #search-button:hover {
+    color: #000;
+    background: #792929;
+  }
+
+.disc {
+  color: rgb(200, 150, 150);
+  font-size: 14px;
+}
